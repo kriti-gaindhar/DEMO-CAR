@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size:15px ;
+    font-weight: 700;
+    font-family: "PT Sana",sans-serif;
+    height: 100px;
+    align-items: center;
+    cursor: pointer;
+    color:black;
+    margin-right: 50px ;
+}
+nav ul li img{
+    width: 150px;
+}
+nav ul i {
+    color: black;
+    size: 100px;
+    font-size: 50px;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.header-content{
+    margin-top: 100px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 40px ;
+}
+.header-content .h{
+        margin-top: 50px;
+        color: antiquewhite;
+        text-align: center;
+        font-size: 20px ;
+    }
+.header-content button{
+   font-size: 90px;
+   background: transparent;
+   border: 0px;
+   color: antiquewhite;
+   
+}
+.b1{
+    margin-right: 1100px;
+}
+.online{
+    background-image: url(online\ services.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    position:absolute;
+    top: 90%;
+    left: 10%;
+    transition-duration: 0.75s;
+    padding: 20px;
+   
+}
+.freight{
+    background-image: url(freight\ services.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    position:absolute;
+    top: 90%;
+    left: 30%;
+    transition-duration: 0.75s;
+    padding: 20px
+}
+.shipment{
+    background-image: url(shipment\ execution.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transition-duration: 0.75s;
+    padding: 20px
+}
+.innovation{
+    background-image: url(innovations.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    position:absolute;
+    top: 90%;
+    left: 70%;
+    transition-duration: 0.75s;
+    padding: 20px
+}
+.over ul li {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    /* color: antiquewhite; */
+    color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    background:transparent;
+    background-blend-mode: hard-light;
+    transition: all 2s ease;
+    
+}
+.over ul li:hover{
+    transform:scale(2) ;
+    background: fixed;
+    background-position:center;
+}
+.log{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.log p {
+    width: 500px;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: 100;
+}
+.log button{
+    display: flex;
+    justify-content: center;
+}
+.but{
+    background-color: #F19A0E;
+    color:antiquewhite ;
+    /* border-radius: 30px; */
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 60px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: #0D1315;
+}
+
+.left{
+    flex-basis: 30%
+    
+}
+.heading{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    color: antiquewhite;
+    text-align: justify;
+    font-weight: 500px;
+}
+.gallery{
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 300px;
+
+}
+.box{
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700px;
+    font-size: 20px;
+    background-color: #1A1A1A;
+    background-blend-mode: hard-light;
+    transition: all 1s ease;
+}
+.box:hover{
+    background-color: white;
+    background-position: bottom;
+}
+.gut{
+    background-color: white;
+    color:#1A1A1A;
+    /* border-radius: 30px; */
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 60px;
+    font-weight: 500px;
+    font-size: 20px;
+}
